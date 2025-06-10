@@ -1,0 +1,89 @@
+/* style.qss */
+
+/* Style pour le formulaire principal */
+QWidget#Form {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.692, y2:0.522727, stop:0 rgba(19, 73, 161, 246), stop:1 rgba(255, 255, 255, 255));
+}
+
+/* Champ de texte pour remarques */
+QLineEdit {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ComboBox pour désignation */
+QComboBox {
+    background-color: rgba(255, 255, 255, 50); /* Couleur de fond semi-transparente */
+}
+
+/* SpinBox pour quantité */
+QSpinBox {
+    background-color: rgba(255, 255, 255, 0); /* Transparent */
+}
+
+/* Bouton de validation */
+QPushButton#imprime_btn {
+    background-color: rgba(37, 37, 120, 0.8);
+    border-radius: 0px;
+    color: white;
+}
+#sync_btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#sync_btn:hover {
+    background-color: #45a049;
+}
+QPushButton#sauvegarder_git_btn {
+    background-color: rgba(173, 139, 26, 0.8);
+    border-radius: 0px;
+    color: white;
+}
+QPushButton {
+    background-color: rgb(61, 61, 186);
+    color: white;
+    border-radius: 5px;
+}
+
+QPushButton#affiche_btn {
+    background-color: rgb(64, 140, 26);
+}
+QPushButton#btn_supprimer {
+    background-color: rgb(254, 20, 7);
+}
+QPushButton#facture_btn {
+    background-color: rgb(200, 225, 220);
+    color : black;
+}
+QPushButton#btn_imprimer {
+    background-color: rgb(32, 116, 13);
+    font-size : 18px;
+}
+
+QPushButton#logo {
+    background-color: none;
+}
+/* Labels */
+QLabel {
+    background-color: none; /* Pas de fond */
+}
+
+/* RadioButtons */
+QRadioButton {
+    color: black; /* Couleur du texte */
+}
+
+QRadioButton#sortie {
+    color: red; /* Couleur du texte pour le bouton "Sortie" */
+}
+
+/* DateEdit */
+QDateEdit {
+    background-color: rgba(255, 255, 255, 0); /* Transparent */
+}
+QTableWidget {
+    background-color: rgba(255, 255, 255, 100); /* Transparent */
+}
